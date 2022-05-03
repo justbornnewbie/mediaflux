@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent mf-test-vm
     stages {
         stage('Download-files-from-azure') {
             steps {
